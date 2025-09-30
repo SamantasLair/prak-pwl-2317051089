@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('user', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->string('nim');
-            $table->string('kelas_id')->constrained();
+            $table->string('nim')->nullable();
+            $table->bigInteger('kelas_id')->constrained();
             $table->timestamps();
         });
     }

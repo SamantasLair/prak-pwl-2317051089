@@ -6,7 +6,6 @@
     <title>Profil Pengguna</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* CSS Tambahan (jika diperlukan) */
         .avatar-box {
             border: 2px solid #a6a6a6;
         }
